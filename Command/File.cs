@@ -14,7 +14,7 @@ public class _File
 
     public void Create()
     {
-        Console.WriteLine($"Создан файл: {_fileName}");
+        Console.WriteLine($"Создан файл: <{_fileName}>");
         isDeleted = false;
         isCreated = true;
     }

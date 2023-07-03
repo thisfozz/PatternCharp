@@ -14,7 +14,7 @@ void CommandExample()
 
     //createFileCommand.Execute();
 
-    Console.WriteLine("\nСоздаем файл");
+    Console.WriteLine("Создаем файл");
     fileManager.SetCommand(createFileCommand);
     fileManager.ExecuteCommand();
 
